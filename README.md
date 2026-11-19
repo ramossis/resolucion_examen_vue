@@ -16,12 +16,12 @@ This template should help get you started developing with Vue 3 in Vite.
 
 # Que es reactividad?
 
-    -Es la capacidad de un framework que tiene para detectar automaticamente los cambios en el estado de los datos (__ref__,__reactive__) y actualizar de forma eficiente el DOM Document Object Model (la vista) sin necesidad de manipularlo manualmente
+- Es la capacidad de un framework que tiene para detectar automaticamente los cambios en el estado de los datos (**ref**,**reactive**) y actualizar de forma eficiente el DOM Document Object Model (la vista) sin necesidad de manipularlo manualmente
 
 # De 2 ejemplos de frameworks basados en vue
 
-    - __Nuxt__ = Metaframerok de Vue, tiene SSR , facil de manejar.
-    - __QUASAR__ = Framework de Vue para desarollar apliaciones multiplataforma (Web, Escritorio , Movil)
+- **Nuxt** = Metaframerok de Vue, tiene SSR , facil de manejar.
+- **QUASAR** = Framework de Vue para desarollar apliaciones multiplataforma (Web, Escritorio , Movil)
 
 #
 
