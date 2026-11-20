@@ -44,21 +44,27 @@ This template should help get you started developing with Vue 3 in Vite.
 
 - En vue Router, definiendo una ruta comodin (catch-all) al final del arreglo de rutas mediante expresiones regulares:
 
-````
+```
   {
     path: '/:pathMatch(.*)*',
     name: 'NotFound',
     component: NotFoundView
   }
-``
+```
+
 # Diferencia entre v-if y v-show
+
 - v-if: Renderizado condicional real: crea o destruye el elemento en el DOM segun la condicion (tiene mayor costo al alternar frecuentemente, pero menor costo inicial si es falso).
 - v-show : Siempre renderiza el elemento en el DOM y solo alterna su visibilidad mediante la propiedad CSS display:none (ideal para elementos que cambian de visibilidad muy seguido).
 
 # Que hace router history (createWebHistory)?
+
 - Configura el modo de navegacion utilizando la API History de HTML5 (history.pushState), permitiendo URLs limpias sin el simbolo # (hash) y sicronizando la navegacion con los botones de atras/adelante del navegador sin recargar la pagina
+
 # Mencione 5 eventos que se pueden controlar con VueJS
+
 ## Recommended Browser Setup
+
 - Chromium-based browsers (Chrome, Edge, Brave, etc.):
   - [Vue.js devtools](https://chromewebstore.google.com/detail/vuejs-devtools/nhdogjmejiglipccpnnnanhbledajbpd)
   - [Turn on Custom Object Formatter in Chrome DevTools](http://bit.ly/object-formatters)
@@ -74,7 +80,7 @@ See [Vite Configuration Reference](https://vite.dev/config/).
 
 ```sh
 npm install
-````
+```
 
 ### Compile and Hot-Reload for Development
 
