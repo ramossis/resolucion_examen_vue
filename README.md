@@ -23,7 +23,15 @@ This template should help get you started developing with Vue 3 in Vite.
 - **Nuxt** = Metaframerok de Vue, tiene SSR , facil de manejar.
 - **QUASAR** = Framework de Vue para desarollar apliaciones multiplataforma (Web, Escritorio , Movil)
 
-#
+# Para que sirve el atributo v-slot?
+
+- Sirve para especificar a que ranura (slot) nombrada de un compoente hijo de debe enviar un bloque de contenido HTML desde el componente padre, asi como para recibir propiedades expuestas por el hijo (scoped slots) su abreviatura es #.
+
+# De un ejemplo para el uso de eventos en emit
+
+- Cuando un componente hijo (por ejemplo un boton o formulario) notifica una accion o envia datos al componente padre:
+  - Hijo : emit('agregar-producto', producto)
+  - Padre : <TarjetaProducto @agregar-producto="procesaCompra">
 
 ## Recommended Browser Setup
 
